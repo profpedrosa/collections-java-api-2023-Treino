@@ -31,5 +31,8 @@ public class CarrinhoApplication {
 
         // Calculando e exibindo o valor total da compra
         System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal());
+
+        sc.close();
     }
+
 }
