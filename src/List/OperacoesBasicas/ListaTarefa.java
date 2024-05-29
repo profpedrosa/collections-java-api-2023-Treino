@@ -11,11 +11,13 @@ public class ListaTarefa {
     //construtor
 
     public ListaTarefa() {
+
         this.tarefaList = new ArrayList<>();
     }
 
     //métodos
     public void adicionarTarefa(String descricao){
+
         tarefaList.add(new Tarefa(descricao));
     }
 
