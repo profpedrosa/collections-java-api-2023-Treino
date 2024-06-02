@@ -19,6 +19,7 @@ public class CarrinhoApplication {
 
         // Exibindo os itens no carrinho
         carrinhoDeCompras.exibirItens();
+        System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal());
 
         // Removendo um item do carrinho
         System.out.println("Removendo ìtens: ");
@@ -26,7 +27,7 @@ public class CarrinhoApplication {
         String itemRemover = sc.next();
         carrinhoDeCompras.removerItem(itemRemover);
 
-        // Exibindo os itens atualizados no carrinho
+       // Exibindo os itens atualizados no carrinho
         carrinhoDeCompras.exibirItens();
 
         // Calculando e exibindo o valor total da compra
